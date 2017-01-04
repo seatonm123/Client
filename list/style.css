@@ -25,7 +25,7 @@ header {
   width: 15vw;
   height: 100%;
   -webkit-transform: skewX(-20deg);
-  background: rgba(8, 36, 122, 0.8);
+  background-color: rgba(8, 36, 122, 0.8);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -127,7 +127,7 @@ main {
 }
 
 label {
-  font-size: 2em;
+  font-size: 1.7em;
   color: white;
   font-family: arial;
 }
@@ -136,6 +136,7 @@ label {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 11%;
 }
 
 .card {
@@ -151,6 +152,16 @@ label {
 
 #card1 {
   margin-top: 0px;
+}
+
+.filter-btn {
+  position: absolute;
+  bottom: 14%;
+  right: 16%;
+  background: none;
+  font-size: 1.7em;
+  color: white;
+  background-color: rgba(8, 36, 122, 0.8);
 }
 
 h3 {
